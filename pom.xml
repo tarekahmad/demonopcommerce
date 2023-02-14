@@ -20,7 +20,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
-                        <include>**/*runners.java</include> <!-- this should be the name of your runner class -->
+                        <include>**/*runners.java</include>
                     </includes>
                 </configuration>
             </plugin>
@@ -57,24 +57,28 @@
 
 
     <dependencies>
-            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>7.3.4</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>7.5.0</version>
+            <version>7.3.4</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.6.0</version>
+            <version>3.4.0</version>
         </dependency>
+
+
     </dependencies>
 
     <properties>
